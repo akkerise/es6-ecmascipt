@@ -44,7 +44,7 @@ var domain = ["freetuts.net", 'qa.freetuts.net', 'demo.freetuts.net'];
 // console.log(domain);
 
 
-// // lưu lại biến domain nên sẽ có sự thay đổi như bình thường
+// // lưu lại biến domain nên sẽ có sự thay đổi 
 // domain.map(function (val,key){
 //   console.log(val.toUpperCase());
 //   domain[key] = val.toUpperCase();

@@ -45,7 +45,7 @@
 // Một sô ví dụ nâng cao khác
 var person = {name: 'Cuong' , email: 'nguyenthanh.rise.88@gmail.com'};
 var {name: n , email: e} = person;
-console.log(n);
+console.log(n); // return:  Cuong
 
 
 //// truy cập vào phần tử không tồn tại
@@ -61,7 +61,7 @@ console.log(sub); // undefined
 //// có thể gán giá trị mặc định để tránh lỗi undefined
 let domain1 = ['freetuts'];
 let [main1,sub1 = 'Gán giá trị bừa'] = domain1;
-console.log(sub1);
+console.log(sub1); // return: Gán giá trị bừa
 
 
 
