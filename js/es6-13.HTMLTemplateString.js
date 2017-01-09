@@ -11,7 +11,10 @@ var domains = [
     'facebook'
 ];
 
-domains.map(function(domain,key){
+domains.map(function(domain, key) {
     console.log(`<h1>${domain}</h1>`);
 });
 
+// <h1>fetch</h1>
+// <h1>google.com</h1>
+// <h1>facebook</h1>
