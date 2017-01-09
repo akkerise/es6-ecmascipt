@@ -13,14 +13,17 @@ weak.set(key1,'Giá trị 01');
 weak.set(key2,'Giá trị 02');
 
 // Lấy giá trị
-console.log(weak.get(key1));
-console.log(weak.get(key2));
+// console.log(weak.get(key1));
+// console.log(weak.get(key2));
 
 // Kiểm tra tồn tại
-var other_key = {};
-console.log(weak.has(key1));
-console.log(weak.has(key2));
-console.log(weak.has(other_key));
+// var other_key = {};
+// console.log(weak.has(key1));
+// console.log(weak.has(key2));
+// console.log(weak.has(other_key));
 
 // Xóa phần tử
-
+weak.delete(key1);
+console.log(weak.get(key1));
+console.log(weak.has(key1));
+console.log(1);
