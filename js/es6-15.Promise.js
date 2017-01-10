@@ -1,5 +1,5 @@
 var promise = new Promise(function(resolve,reject){
-    // resolve('Success !');
+    resolve('Success !');
     reject('Error !');
 });
 promise.then(
@@ -14,3 +14,5 @@ promise.then(
         console.log('Catch!');
         console.log(message);
     });
+
+// Lưu ý : nếu dùng catch để bắt lỗi mà bản thân hàm đã chạy vào reject() thì nó sẽ không chạy vào catch()
