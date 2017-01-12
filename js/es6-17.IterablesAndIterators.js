@@ -18,3 +18,15 @@ for (let x of array){
     console.log(x);
 }
 console.log(...array);
+
+// // Mảng nguyên thủy
+// let arr = ['a', 'b', 'c'];
+ 
+// // Chuyển sang Iterable
+// var iterable = arr[Symbol.iterator]();
+ 
+// // Sử dụng các Iterator Protocol để chuyển qua các phần tử
+// console.log(iterable.next());   // a
+// console.log(iterable.next());   // b
+// console.log(iterable.next());   // c
+// console.log(iterable.next());   // undefined
