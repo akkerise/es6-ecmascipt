@@ -39,19 +39,19 @@ var domain = ["freetuts.net", 'qa.freetuts.net', 'demo.freetuts.net'];
 // domain.map(function (val,key){
 //   console.log(val.toUpperCase());
 // });
-//
+
 // // domain vẫn như thế
 // console.log(domain);
 
 
-// // lưu lại biến domain nên sẽ có sự thay đổi 
-// domain.map(function (val,key){
-//   console.log(val.toUpperCase());
-//   domain[key] = val.toUpperCase();
-// });
-//
-// // domain vẫn như thế
-// console.log(domain);
+// lưu lại biến domain nên sẽ có sự thay đổi 
+domain.map(function (val,key){
+  console.log(val.toUpperCase());
+  domain[key] = val.toUpperCase();
+});
+
+// domain vẫn như thế
+console.log(domain);
 
 
 

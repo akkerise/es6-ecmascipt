@@ -31,7 +31,7 @@
 // let {
 //   year: y
 // } = date;
-//
+// gán lại vào biến
 // // console.log(d);
 // // console.log(m);
 // console.log(y);
@@ -49,8 +49,12 @@ console.log(n); // return:  Cuong
 
 
 //// truy cập vào phần tử không tồn tại
-var {fooz: bar} = {foor: 'baz'};
+var {fooz: bar} = {
+	foor: 'baz', 
+	fooz: 'not undefined'
+};
 console.log(bar); // undefined
+// truy cập vào phần tử fooz và gán biến bar là 'not undefined'
 
 
 //// truy cập vào phần tử không tồn tại
@@ -74,7 +78,7 @@ var domain2 = () => {
     'something' , 'else'
   ];
 };
-
+// coi domain2() functioin là 1 mảng domain2 = ['something','else']
 let [main2,sub2] = domain2();
 console.log(main2);
 console.log(sub2);
